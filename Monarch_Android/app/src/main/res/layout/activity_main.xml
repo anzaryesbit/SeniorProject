@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:src="@drawable/bluetooth"
+        android:fontFamily="@font/girlscout_textmedium"
+        android:background="@android:color/holo_blue_dark"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:padding="20dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="@string/combinations_talk_move"
+        android:fontFamily="@font/girlscout_textbold"
+        android:textSize="25sp"
+        tools:ignore="RtlSymmetry">
+    </TextView>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/row_1">
+
+        <LinearLayout
+            android:layout_width="256dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cmd1"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/orange"
+                android:textColor="@color/black"
+                android:text="@string/commmand_1"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"
+                />
+
+            <Button
+                android:id="@+id/cmd2"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/orange"
+                android:textColor="@color/black"
+                android:text="@string/commmand_2"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"
+                />
+
+            <Button
+                android:id="@+id/cmd3"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/orange"
+                android:textColor="@color/black"
+                android:text="@string/commmand_3"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"
+                />
+
+            <Button
+                android:id="@+id/cmd4"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/orange"
+                android:textColor="@color/black"
+                android:text="@string/commmand_4"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"
+                />
+
+            <Button
+                android:id="@+id/cmd5"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/orange"
+                android:textColor="@color/black"
+                android:text="@string/commmand_5"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"
+                />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="Talking"
+        android:fontFamily="@font/girlscout_textbold"
+        android:textSize="30sp">
+    </TextView>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/row_2">
+
+        <LinearLayout
+            android:layout_width="256dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/cmd6"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/yellow"
+                android:textColor="@color/black"
+                android:text="@string/commmand_1"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"
+                />
+
+            <Button
+                android:id="@+id/cmd7"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/yellow"
+                android:textColor="@color/black"
+                android:text="@string/commmand_2"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"
+                />
+
+            <Button
+                android:id="@+id/cmd8"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/yellow"
+                android:textColor="@color/black"
+                android:text="@string/commmand_3"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"
+                />
+
+            <Button
+                android:id="@+id/cmd9"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/yellow"
+                android:textColor="@color/black"
+                android:text="@string/commmand_4"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"
+                />
+
+            <Button
+                android:id="@+id/cmd10"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/yellow"
+                android:textColor="@color/black"
+                android:text="@string/commmand_5"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"
+                />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="@string/movement"
+        android:fontFamily="@font/girlscout_textbold"
+        android:textSize="30sp"
+        tools:ignore="RtlSymmetry">
+    </TextView>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/image11"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/pink"
+                android:textColor="@color/black"
+                android:text="@string/commmand_1"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/image12"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/pink"
+                android:textColor="@color/black"
+                android:text="@string/commmand_2"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/image13"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/pink"
+                android:textColor="@color/black"
+                android:text="@string/commmand_3"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/image14"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/pink"
+                android:textColor="@color/black"
+                android:text="@string/commmand_4"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/image15"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:background="@color/pink"
+                android:textColor="@color/black"
+                android:text="@string/commmand_5"
+                android:fontFamily="@font/girlscout_textbook"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SeniorProject2</string>
+    <string name="commmand_6">Commmand 6</string>
+    <string name="commmand_5">Commmand 5</string>
+    <string name="commmand_4">Commmand 4</string>
+    <string name="commmand_3">Commmand 3</string>
+    <string name="commmand_2">Commmand 2</string>
+    <string name="commmand_1">Commmand 1</string>
+    <string name="movement">Movement</string>
+    <string name="row_1">Row 1</string>
+    <string name="combinations_talk_move">Combinations (Talk + Move)</string>
+    <string name="row_2">Row 2</string>
+</resources>
