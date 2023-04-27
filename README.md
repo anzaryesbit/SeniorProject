@@ -6,6 +6,7 @@ How to navigate Monarch_Android:
   
   values (folder):
     > colors.xml - has all the colors that we're using
+    >
     > strings.xml - stores all the strings we're using
   
   font (folder):
