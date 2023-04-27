@@ -1,6 +1,6 @@
 How to navigate Monarch_Android:
+- Important files are located in: SeniorProject/Monarch_Android/app/src/main/res/
 - Modifying Appearances:
-  
   layout (folder):
     > activity_main.xml - in charge of all the basic layouts and appearances on screen
   
