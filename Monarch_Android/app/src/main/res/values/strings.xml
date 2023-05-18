@@ -10,4 +10,7 @@
     <string name="row_1">Row 1</string>
     <string name="combinations_talk_move">Combinations (Talk + Move)</string>
     <string name="row_2">Row 2</string>
+    <!-- These strings are for alerts for bluetooth stuff -->
+    <string name="no_bluetooth_title">Bluetooth Not Supported</string>
+    <string name="no_bluetooth_msg">This phone cannot connect to the butterfly because it does not support Bluetooth. Try talking to the butterfly instead!</string>
 </resources>
