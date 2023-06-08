@@ -10,7 +10,18 @@
     <string name="row_1">Row 1</string>
     <string name="combinations_talk_move">Combinations (Talk + Move)</string>
     <string name="row_2">Row 2</string>
-    <!-- These strings are for alerts for bluetooth stuff -->
+
+    <!-- This is for bluetooth internals -->
+    <string name="uuid">df5b59c6-a4fb-4d43-80ae-45d914dcb574</string>
+
+    <!-- These strings are for bluetooth-related dialogs -->
     <string name="no_bluetooth_title">Bluetooth Not Supported</string>
     <string name="no_bluetooth_msg">This phone cannot connect to the butterfly because it does not support Bluetooth. Try talking to the butterfly instead!</string>
+    <string name="choose_device_title">Connect to a device</string>
+    <string name="device_not_found_title">Device not found</string>
+    <string name="device_not_found_msg">No butterfly found. Make sure to turn on the butterfly and enable Bluetooth on this phone.</string>
+
+    <!-- These are for debugging -->
+    <string name="scan_title">Scan</string>
+    <string name="scan_alert">Scan status changed</string>
 </resources>
